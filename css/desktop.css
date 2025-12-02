@@ -98,14 +98,14 @@ body{
 }
 
 .searchbtn button{
-    background-color: #a9a9a9;
+    background-color: #96999b;
     width: 100px;
     cursor: pointer;
     /* padding: 0px; */
 }
 
 .searchbtn button:hover{
-    background-color: #5b5f5c;
+    background-color: #d3a844;
 }
 
 
@@ -197,9 +197,6 @@ body{
     background-color: #d3a844;
     transition: 2ms;
 }
-
-
-
 
 
 
