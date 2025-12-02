@@ -11,9 +11,9 @@ body{
 
 /* ======== Navigation Bar and Welcome Page========= */
 
-#logo {
+.navlogo img {
  
-    width: 75px;
+    width: 70px;
     height: 10vh;
 
 }
@@ -24,8 +24,9 @@ body{
 
 }
 .navlogo h1{
-    position: relative;
-    top: 10px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .navbar {
@@ -70,11 +71,11 @@ body{
 }
 
 .navlink ul li a:hover{
-    background-color: #0ff453;
-    border: 1px solid #0ff453;
-    border-radius: 10px;
+    color: #efbe4d;
     transition: 2ms;
 }
+
+
 
 
 /* Navigation bar search buttom and input box */
@@ -97,14 +98,14 @@ body{
 }
 
 .searchbtn button{
-    background-color: #cef5c8;
+    background-color: #a9a9a9;
     width: 100px;
     cursor: pointer;
     /* padding: 0px; */
 }
 
 .searchbtn button:hover{
-    background-color: #0ff453;
+    background-color: #5b5f5c;
 }
 
 
@@ -144,6 +145,56 @@ body{
 
 .allbtn:hover{
     background-color: transparent;
+    transition: 2ms;
+}
+
+/* HOMEPAGE ABOUT US CONTENT */
+
+.homeabout-container{
+    position: relative;
+    top: 50px;
+}
+
+.homeabout-content{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.homeabout-text{
+    width: 500px;
+    
+}
+.homeabout-items{
+    display: flex;
+    justify-content: space-around;
+}
+.homeabout-img img{
+    width: 500px;
+    height: 400px;
+}
+.homeabout-text {
+    position: relative;
+    top: 80px;
+}
+
+.homeabout-text button{
+    position: relative;
+    top: 20px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid ;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #004279;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.homeabout-text button:hover{
+    background-color: #d3a844;
     transition: 2ms;
 }
 
